@@ -20,8 +20,8 @@
 			<div class="header_top">
 				<a href="#" class="logo header_logo">Cahee</a>
 				<div class="header_nav">
-					<nav>
-						<ul class="header_menu">
+					<nav class="header_menu">
+						<ul>
 							<li class="header_list"><a href="#" class="header_link">HOME</a></li>
 							<li class="header_list"><a href="#about" class="header_link">ABOUT</a></li>
 							<li class="header_list"><a href="#services" class="header_link">SERVICES</a></li>
@@ -31,11 +31,17 @@
 						</ul>
 					</nav>
 				</div>
+				<div class="burger">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 			<div class="header_section">
 				<h1 class="header_title">Fresh Life</h1>
-				<p class="header_text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco.</p>
+				<p class="header_text">Sed do eiusmod tempor incididunt ut labore et <br>
+					dolore magna aliqua. Ut enim ad minim veniam, <br>
+					quis nostrud exercitation ullamco.</p>
 				<button class="btn header_button">GET FREE NOW</button>
 			</div>
 			<a class="header_click" href="#about"><img src="icons/click.png" alt="click"></a>
@@ -74,7 +80,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 	</section>
 	<section class="gallery" id="gallery">
@@ -85,7 +90,7 @@
 				ullamco laboris nisi ut aliquip
 				ex ea commodo consequat.</p>
 			<div class="gallery_wrapper">
-				<div class="gallery_item">
+				<div class="gallery_item gallery_peaches">
 					<img src="images/gallery/peaches.jpg" alt="peaches">
 				</div>
 				<div class="gallery_berry">
@@ -96,10 +101,10 @@
 						<img src="images/gallery/blackberry.jpg" alt="blackberry">
 					</div>
 				</div>
-				<div class="gallery_item">
+				<div class="gallery_bot gallery_item ">
 					<img src="images/gallery/plate.jpg" alt="plate">
 				</div>
-				<div class="gallery_item">
+				<div class="gallery_bot gallery_item">
 					<img src="images/gallery/persimmon.jpg" alt="persimmon">
 				</div>
 			</div>
@@ -121,17 +126,17 @@
 	<section class="blogs" id="blog">
 		<div class="container">
 			<h2 class="title blogs_title">Blog</h2>
-			<p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
+			<p class="blogs_text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br>
 				ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br>
 				dolor in reprehenderit in voluptate velit.</p>
 			<div class="blogs_wrapper">
 				<a class="blogs_blog" href="#">
 					<img src="images/blog/smoothie.jpg" alt="smoothie">
 					<div class="blogs_article">
-						<h3 class="blogs_top" datetime="11.20.2020">20 nov</h3>
+						<h3 class="blogs_top" datetime="11.20.2020">20 <br> nov</h3>
 						<div class="blogs_down">
 							<h4>Green Smoothies: Too Much of a Good Thing?</h4>
-							<p>By Auskteez - 2 hours ago</p>
+							<p class="blogs_author">By Auskteez - 2 hours ago</p>
 						</div>
 					</div>
 
@@ -139,10 +144,10 @@
 				<a class="blogs_blog" href="#">
 					<img src="images/blog/soup.jpg" alt="soup">
 					<div class="blogs_article">
-						<h3 class="blogs_top" datetime="11.14.2020">14 nov</h3>
+						<h3 class="blogs_top" datetime="11.14.2020">14 <br> nov</h3>
 						<div class="blogs_down">
 							<h4>Growing Food and a “Thirst” for Innovation</h4>
-							<p>By Auskteez - 3 hours ago</p>
+							<p class="blogs_author">By Auskteez - 3 hours ago</p>
 						</div>
 					</div>
 
@@ -150,10 +155,10 @@
 				<a class="blogs_blog" href="#">
 					<img src="images/blog/raspberries.jpg" alt="raspberries">
 					<div class="blogs_article">
-						<h3 class="blogs_top" datetime="11.10.2020">10 nov</h3>
+						<h3 class="blogs_top" datetime="11.10.2020">10 <br> nov</h3>
 						<div class="blogs_down">
 							<h4>Pesticides & Food: What You Need to Know</h4>
-							<p>By Auskteez - 6 hours ago</p>
+							<p class="blogs_author">By Auskteez - 6 hours ago</p>
 						</div>
 					</div>
 				</a>
@@ -194,6 +199,7 @@
 			</div>
 		</div>
 	</footer>
+	<script src="js/script.js"></script>
 </body>
 
 </html>
